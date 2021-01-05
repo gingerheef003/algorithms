@@ -1,5 +1,4 @@
 def merge(a):
-    l = len(a)
     if l == 1:
         return a
     elif l == 2:
