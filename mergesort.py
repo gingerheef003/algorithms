@@ -26,4 +26,12 @@ def merge(a):
         else:
             d.extend(c[j:len(c)])
         return d
-print(merge([9,5,45,16,7,82,101]))
+
+arr = []
+
+print('Enter numbers to sort. Enter blank to end list.')
+arr.append(int(input()))
+while(arr[len(arr)-1] != None):
+    arr.append(int(input()))
+
+print(merge(arr))
